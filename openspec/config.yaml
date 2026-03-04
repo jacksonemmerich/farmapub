@@ -1,0 +1,29 @@
+schema: spec-driven
+
+context: |
+  Tech Stack:
+  - Backend: Java 25, Spring Boot 4.0.3, Maven, PostgreSQL 16, Redis 7
+  - Frontend: Next.js 14, React 18, TypeScript, TailwindCSS, Radix UI, Shadcn
+  
+  Domain: Sistema de gestão de dispensação de medicamentos e estoque central para prefeituras (Sisfarma)
+  
+  Conventions:
+  - Java: Spring Boot conventions, Lombok for boilerplate
+  - Frontend: Next.js App Router, React Hook Form + Zod for forms
+  - API: RESTful, JSON
+  - Docker: Multi-stage builds for optimized images
+  
+  Services:
+  - Backend: http://localhost:8080
+  - Frontend: http://localhost:3000
+  - PostgreSQL: localhost:5432 (user/password: user/password)
+  - Redis: localhost:6379
+
+rules:
+  proposal:
+    - Keep proposals under 500 words
+    - Always include a "Non-goals" section
+    - Consider both backend and frontend changes
+  tasks:
+    - Break tasks into chunks of max 2 hours
+    - Test both backend and frontend after changes
