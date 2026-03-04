@@ -48,6 +48,7 @@ services:
     environment:
       NEXT_PUBLIC_API_URL: http://localhost:8080
 
+
 volumes:
   db_data:
   redis_data:
